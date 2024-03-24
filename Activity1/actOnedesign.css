@@ -111,4 +111,16 @@ button{
     font-size: 30px;
     padding-bottom: 5%;
 }
- 
+ @media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    .infoL {
+        width: 100%;
+    }
+    
+    .imageR {
+        width: 100%;
+    }
+}
