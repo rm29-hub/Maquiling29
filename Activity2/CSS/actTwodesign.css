@@ -125,3 +125,41 @@ a:hover {
 .logospan{
     color: white;
 }
+@media screen and (max-width: 992px) {
+    .sectionOne, .sectionTwo{
+        padding: 2rem;
+        padding-top: 6rem;
+    }
+
+    .titleTwo{
+        margin-left: 5rem;
+    }
+
+    .classInfo{
+        padding-right: 5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sectionOne, .sectionTwo{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .titleTwo{
+        position: static;
+        margin-left: 0;
+    }
+
+    .classInfo{
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .sectionOne, .sectionTwo{
+        padding: 1rem;
+        padding-top: 4rem;
+    }
+}
